@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: rgb(92, 0, 73);
+  background: linear-gradient(
+    0deg,
+    rgba(92, 0, 73, 1) 0%,
+    rgba(255, 86, 221, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Freckle Face', cursive;
+}
+
+.gif {
+  height: 400px;
+}
+
+h1 {
+  z-index: 3;
+  font-size: 80px;
+  color: whitesmoke;
+}
+
+.btn {
+  font-family: 'Freckle Face', cursive;
+  margin-top: 25px;
+  font-size: 2.8rem;
+  padding: 20px;
+  z-index: 2;
+  border-radius: 10px;
+  cursor: pointer;
+}
